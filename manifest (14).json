@@ -1,0 +1,60 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://953ab62e-c854-4c8e-b339-cff291a9d7b8",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://545c5d58-46b3-4940-a232-cc30b15f725b",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://34d80225-7f23-486e-b841-738db61f54fb",
+					"@type": "sc:Canvas",
+					"label": "Test",
+					"height": 3024,
+					"width": 4032,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://0e10faad-9efb-4c01-a7a4-c7fcc8605d9a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://iiif.archivelab.org/iiif/IMG0196_201807/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://iiif.archivelab.org/iiif/IMG0196_201807",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3024,
+								"width": 4032
+							},
+							"on": "http://34d80225-7f23-486e-b841-738db61f54fb"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}
